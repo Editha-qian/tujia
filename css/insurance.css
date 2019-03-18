@@ -1,0 +1,241 @@
+.footer{
+	position: relative;
+}
+.footer img:nth-of-type(2){
+	position: absolute;
+	left: 165px;
+	top: 10px;
+}
+.wrap{
+	width: 1190px;
+	margin: 0 auto;
+	position: relative;
+}
+.text{
+	width: 476px;
+	position: absolute;
+	right: 10px;
+	bottom: 85px;
+}
+.text p{
+	color: white;
+	font-size: 14px;
+	padding-top: 25px;
+	line-height: 1.5;
+}
+
+.middle,.insured,.claims,.bottom{
+	width: 1190px;
+	margin: 0 auto;
+	text-align: center;
+}
+.middle{
+	margin-top: 70px;
+}
+h3{
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.middle ul{
+	height: 331px;
+}
+.middle li{
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	padding: 60px 40px;
+	margin: 0 29px;
+}
+span{
+	display: inline-block;
+	background-image: url('../img/page-help.a447087.png');
+}
+.middle li:nth-of-type(1) span{
+	width: 54px;
+	height: 60px;
+	background-position: -232px -200px;
+}
+.middle li:nth-of-type(2) span{
+	width: 61px;
+	height: 54px;
+	background-position: -98px -203px;
+}
+.middle li:nth-of-type(3) span{
+	width: 60px;
+	height: 56px;
+	background-position: -164px -202px;
+}
+.middle p:nth-of-type(1){
+	font-size: 18px;
+	padding-top: 37px;
+}
+.middle p:nth-of-type(2){
+	font-size: 18px;
+	color: #999;
+	padding-top: 10px;
+}
+.middle p:nth-of-type(3){
+	padding-top: 20px;
+	color: #fd8238;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.product{
+	width: 1190px;
+	margin: 0 auto;
+	margin-top: 140px;
+	overflow: hidden;
+}
+.p_left{
+	float: left;
+}
+.p_right{
+	float: left;
+	padding-left: 30px;
+}
+.p_right h3{
+	padding-bottom: 30px;
+}
+.p_right p{
+	width: 683px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.insured{
+	margin-top: 120px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.insured li{
+	display: inline-block;
+}
+.insured p{
+	font-size: 18px;
+	padding: 20px 0 10px;
+}
+.insured li:nth-of-type(1) span,.insured li:nth-of-type(3) span,.insured li:nth-of-type(5) span{
+	width: 91px;
+	height: 90px;
+}
+.insured li:nth-of-type(1) span{
+	background-position: -1px -101px;
+}
+.insured li:nth-of-type(2) span,.insured li:nth-of-type(4) span{
+	width: 17px;
+	height: 30px;
+	padding: 60px 0 10px;
+	margin: 0 53px;
+	background-position: -299px -79px;
+}
+.insured li:nth-of-type(3) span{
+	background-position: -100px -101px;
+}
+.insured li:nth-of-type(5) span{
+	background-position: 0 -2px;
+}
+.i_bottom{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.claims{
+	padding: 60px 0;
+}
+.claims li{
+	display: inline-block;
+}
+.claims p{
+	font-size: 18px;
+	padding: 20px 0 10px;
+}
+.claims li:nth-of-type(1) span,.claims li:nth-of-type(3) span,.claims li:nth-of-type(5) span,.claims li:nth-of-type(7) span{
+	width: 91px;
+	height: 90px;
+}
+.claims li:nth-of-type(1) span{
+	background-position: -201px -1px;
+}
+.claims li:nth-of-type(3) span{
+	background-position: -200px -100px;
+}
+.claims li:nth-of-type(5) span{
+	background-position: -1px -199px;
+}
+.claims li:nth-of-type(7) span{
+	background-position: -100px -1px;
+}
+.claims li:nth-of-type(2) span,.claims li:nth-of-type(4) span,.claims li:nth-of-type(6) span{
+	width: 17px;
+	height: 30px;
+	padding: 60px 0 10px;
+	margin: 0 53px;
+	background-position: -299px -79px;
+}
+
+.bottom{
+	padding: 60px 0;
+	overflow: hidden;
+}
+.bottom h3{
+	padding-bottom: 10px;
+}
+.bottom p{
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 50px;
+}
+.bottom ul li{
+	width: 595px;
+	float: left;
+	display: inline-block;
+}
+.bottom img{
+	float: left;
+}
+.b_right{
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+}
+.b_right p{
+	width: 240px;
+	font-size: 14px;
+	padding-bottom: 20px;
+	line-height: 1.5;
+}
+h4{
+	font-weight: bold;
+	padding: 10px 0;
+}
+.b_right a{
+	text-decoration: none;
+	background: #f60;
+	color: #fff;
+	padding: 6px 30px;
+	border-radius: 5px;
+}
+
+.f_b{
+	width: 1190px;
+	margin: 0 auto;
+}
+.f_b a{
+	text-decoration: none;
+	padding-right: 15px;
+	color: #333;
+	font-size: 12px;
+}
+.f_b a:hover{
+	text-decoration: underline;
+}
+.f_b p:nth-of-type(2),.f_b p:nth-of-type(3){
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}

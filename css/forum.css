@@ -1,0 +1,90 @@
+html{
+	background: #f8f8f8;
+}
+
+header{
+	width: 100%;
+	min-width: 1190px;
+	/* background: aqua; */
+    box-shadow: 0 3px 1px #ededed;
+    margin-bottom: 18px;
+}
+
+.he1,.he2,main,section,footer{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+	/* transform: translateX(); */
+}
+
+.he1{
+	font-size: 11px;
+	line-height: 22px;
+}
+.he1 ul{
+	float: right;
+}
+
+.he1 li a{
+	float: left;
+	padding-left: 9px;
+	padding-right: 13px;
+	/* border-left: 1px solid #ddd; */
+}
+
+.he2{
+	/* background: pink; */
+	vertical-align: top;
+	overflow: hidden;
+}
+.hh{
+	overflow: hidden;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.he2 ul,h1,li,#m1,.left,.right,.le2 h6,.le2 div>a{
+	float: left;
+}
+h1{
+	height: 69px;
+	width: 231px;
+}
+
+.he2 li{
+	line-height: 66px;
+	font-size: 15px;
+	padding-left: 19px;
+	padding-right: 21px;
+	box-sizing: border-box;
+}
+
+.a1,.he2 a{
+	text-decoration: none;
+}
+.a1{
+	color: #666;
+}
+
+.he2 a{
+	color: #333;
+	height: 66px;
+	display: block;
+}
+.he2 li:nth-of-type(4) a{
+	color: #F60;
+	cursor: default;
+}
+.he2 li:nth-of-type(n+2) a{
+	height: 69px;
+}
+header a:hover{
+	text-decoration: underline;
+}
+.he2 li:nth-of-type(4) a:hover{
+	text-decoration: none;
+}
+
+.y1{
+	border-bottom: 3px solid #f60;
+}

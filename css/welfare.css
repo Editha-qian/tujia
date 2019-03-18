@@ -1,0 +1,147 @@
+html{
+	background: #f8f8f8;
+}
+
+header{
+	width: 100%;
+	min-width: 1190px;
+	/* background: aqua; */
+    box-shadow: 0 3px 1px #ededed;
+    margin-bottom: 18px;
+}
+
+.he1,.he2,main,section,footer{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+	/* transform: translateX(); */
+}
+
+.he1{
+	font-size: 11px;
+	line-height: 22px;
+}
+.he1 ul{
+	float: right;
+}
+
+.he1 li a{
+	float: left;
+	padding-left: 9px;
+	padding-right: 13px;
+	/* border-left: 1px solid #ddd; */
+}
+
+.he2{
+	/* background: pink; */
+	vertical-align: top;
+	overflow: hidden;
+}
+.hh{
+	overflow: hidden;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.he2 ul,h1,li,#m1,.left,.right,.le2 h6,.le2 div>a{
+	float: left;
+}
+h1{
+	height: 69px;
+	width: 231px;
+}
+
+.he2 li{
+	line-height: 66px;
+	font-size: 15px;
+	padding-left: 19px;
+	padding-right: 21px;
+	box-sizing: border-box;
+}
+
+.a1,.he2 a{
+	text-decoration: none;
+}
+.a1{
+	color: #666;
+}
+
+.he2 a{
+	color: #333;
+	height: 66px;
+	display: block;
+}
+.he2 li:nth-of-type(3) a{
+	color: #F60;
+	cursor: default;
+}
+.he2 li:nth-of-type(n+2) a{
+	height: 69px;
+}
+header a:hover{
+	text-decoration: underline;
+}
+.he2 li:nth-of-type(3) a:hover{
+	text-decoration: none;
+}
+
+.y1{
+	border-bottom: 3px solid #f60;
+}
+
+.fuli{
+	width: 1190px;
+	margin: 0 auto;
+}
+.fuli a{
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+.fuli a:hover{
+	text-decoration: underline;
+}
+.fuli span{
+	font-size: 12px;
+}
+.fuli span:nth-of-type(1){
+	margin-left: -3px;
+	color: #666;
+}
+
+.middle{
+	width: 1190px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.middle img{
+	float: left;
+}
+.right{
+	float: right;
+	height: 298px;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+}
+.right h3{
+	font-size: 18px;
+	color: #fff;
+	height: 44px;
+	line-height: 36px;
+	margin-top: 10px;
+	margin-left: -6px;
+    padding-left: 19px;
+	background-image: url('../img/titleBg-fH.png');
+	background-repeat: no-repeat;
+}
+.right p{
+	width: 256px;
+	font-size: 14px;
+	padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    color: #666;
+}

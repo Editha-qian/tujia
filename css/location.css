@@ -1,0 +1,138 @@
+html{
+	background: #97111c;
+}
+.l_nav,.middle{
+	margin: 0 auto;
+}
+.nav{
+	height: 40px;
+	background: #fff;
+}
+.l_nav a{
+	text-decoration: none;
+	color: #666;
+}
+.l_nav a:hover{
+	text-decoration: underline;
+}
+.l_nav{
+	width: 1190px;
+	height: 40px;
+}
+.l_nav img{
+	margin-top: 3px;
+	float: left;
+}
+.l_nav ul{
+	float: left;
+	width: 112px;
+	font-size: 12px;
+}
+.l_nav li{
+	float: left;
+	width: 25px;
+	line-height: 40px;
+	margin-left: 31px;
+}
+.r_nav{
+	float: right;
+	font-size: 12px;
+	line-height: 40px;
+}
+.r_nav span{
+	padding: 0 5px;
+}
+.r_nav a:nth-of-type(2){
+	color: #f60;
+}
+
+.middle{
+	width: 1190px;
+}
+.wrap li{
+	width: 377px;
+	height: 350px;
+	float: left;
+	background: #fff;
+	margin-right: 11px;
+    margin-left: 8px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: auto;
+}
+.love{
+	position: absolute;
+	right: 8px;
+	top: 6px;
+}
+.wrap p{
+	width: 345px;
+	font-weight: bold;
+	color: #333;
+	margin: 0 auto;
+	margin-top: 11px;
+    margin-bottom: 3px;
+	font-family: Arial,PingFangSC-Regular,Helvetica Neue,sans-serif;
+}
+.wrap div {
+	width: 345px;
+	height: 16px;
+	margin: 0 auto;
+}
+.wrap li img:nth-of-type(2){
+	position: absolute;
+	bottom: 115px;
+	width: 114px;
+}
+.wrap div span{
+	float: left;
+	font-size: 12px;
+	color: #666;
+	margin-right: 5px;
+	display: block;
+}
+.wrap div:nth-of-type(2){
+	height: 23px;
+}
+.money span:nth-of-type(1){
+	font-size: 18px;
+	color: #f66;
+	font-weight: bold;
+	font-family: Arial,PingFangSC-Regular,Helvetica Neue,sans-serif;
+}
+.money span:nth-of-type(2),.money span:nth-of-type(3){
+	width: 68px;
+	height: 18px;
+	font-size: 10px;
+	background-color: #feeded;
+	color: #ff6666;
+	text-align: center;
+	line-height: 18px;
+	margin-top: 5px;
+}
+.money p{
+	display: inline-block;
+	font-size: 12px;
+	color: #999;
+	width: 40px;
+	line-height: 6px;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+.footer{
+	width: 1190px;
+	margin: 0 auto;
+}
+.footer li{
+	width: 396px;
+	height: 218px;
+	float: left;
+	cursor: pointer;
+}
+.footer img{
+	border-radius: 5px;
+	width: 100%;
+}
